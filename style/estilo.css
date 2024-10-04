@@ -17,7 +17,7 @@
     height: 100vh;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .itm-arm {
         height: max-content;
     }
@@ -42,7 +42,7 @@
     gap: 40px;
     z-index: 100;
 }
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .arm-local {
         background-color: transparent;
         position: fixed;
@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .arm-img {
     }
 }
