@@ -8,13 +8,12 @@
 </head>
 <body>
     <div class="itm-arm">
-        <div class="btn-cmp">
-            <a onclick="openalbummode()" href="inc/album.html" class="album btn-gn prm-alb">Album</a>
-            <a onclick="openmomentmode()" href="inc/moment.html" class="moment btn-gn mmo">Moment</a>
-        </div>
-        <div class="arm-local">
-            <h1>Eugenia & Carlos</h1>
-        </div>
+        <!-- <div id="janela" class="arm-local">
+            <button id="close" class="close">X</button>
+            <div class="ann-ond">
+                <h1>Eugenia & Carlos</h1>
+            </div>
+        </div> -->
         <div class="arm-img">
             <img src="img/1.jpg" class="img-cls">
             <img src="img/2.jpg" class="img-cls">
@@ -34,9 +33,67 @@
             <img src="img/16.jpg" class="img-cls">
             <img src="img/17.jpg" class="img-cls">
             <img src="img/18.jpg" class="img-cls">
+            <img src="img/19.jpg" class="img-cls">
+            <img src="img/20.jpg" class="img-cls">
+            <img src="img/21.jpg" class="img-cls">
+            <img src="img/23.jpg" class="img-cls">
+            <img src="img/24.jpg" class="img-cls">
+            <img src="img/25.jpg" class="img-cls">
+            <img src="img/26.jpg" class="img-cls">
+            <img src="img/27.jpg" class="img-cls">
+            <img src="img/28.jpg" class="img-cls">
+            <img src="img/29.jpg" class="img-cls">
+            <img src="img/30.jpg" class="img-cls">
+            <img src="img/31.jpg" class="img-cls">
+            <img src="img/32.jpg" class="img-cls">
+            <img src="img/33.jpg" class="img-cls">
+            <img src="img/34.jpg" class="img-cls">
+            <img src="img/35.jpg" class="img-cls">
+            <img src="img/36.jpg" class="img-cls">
+            <img src="img/37.jpg" class="img-cls">
+            <img src="img/38.jpg" class="img-cls">
+            <img src="img/39.jpg" class="img-cls">
+
+            <img src="img/40.jpg" class="img-cls">
+            <img src="img/41.jpg" class="img-cls">
+            <img src="img/42.jpg" class="img-cls">
+            <img src="img/43.jpg" class="img-cls">
+            <img src="img/44.jpg" class="img-cls">
+            <img src="img/45.jpg" class="img-cls">
+            <img src="img/46.jpg" class="img-cls">
+            <img src="img/47.jpg" class="img-cls">
+            <img src="img/48.jpg" class="img-cls">
+            <img src="img/49.jpg" class="img-cls">
+
+            <img src="img/50.jpg" class="img-cls">
+            <img src="img/51.jpg" class="img-cls">
+            <img src="img/52.jpg" class="img-cls">
+            <img src="img/53.jpg" class="img-cls">
+            <img src="img/54.jpg" class="img-cls">
+            <img src="img/55.jpg" class="img-cls">
+            <img src="img/56.jpg" class="img-cls">
+            <img src="img/57.jpg" class="img-cls">
+            <img src="img/58.jpg" class="img-cls">
+            <img src="img/59.jpg" class="img-cls">
+
+            <img src="img/60.jpg" class="img-cls">
+            <img src="img/61.jpg" class="img-cls">
+            <img src="img/62.jpg" class="img-cls">
+            <img src="img/63.jpg" class="img-cls">
+            <img src="img/64.jpg" class="img-cls">
+            <img src="img/65.jpg" class="img-cls">
         </div>
     </div>
 
-    <script src="script/app.js"></script>
+    <script src="script/app.js">
+        var btnClose = document.querySelector('.close');
+        var campoClose = document.querySelector('.arm-local');
+
+        campoClose.addEventListener('click', (e) => {
+        if (e.target.id == 'close' || e.target.id == 'janela') {
+            modal.classList.add('dod')
+        }
+    });
+    </script>
 </body>
 </html>
